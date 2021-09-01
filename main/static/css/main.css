@@ -1,0 +1,16 @@
+body{
+   
+    background-color: rgb(76, 100, 124);
+    
+}
+
+#backdrop{
+    background-color: #eef3ef;
+}
+
+
+.homepage{
+    width: 100%;
+    height: 100%;
+}
+
