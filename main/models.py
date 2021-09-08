@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.db.models.fields import related
 # Create your models here.
 class Movie(models.Model):
-    # fields for the movie table
+#   for college table convert 
     name = models.CharField(max_length=300)
     director = models.CharField(max_length=300)
     cast = models.CharField(max_length=800)

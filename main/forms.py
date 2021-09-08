@@ -18,6 +18,7 @@ class MovieForm(forms.ModelForm):
         'image':"Uplode Your College Photo",
         
         }
+        
           
         
 class ReviewForm(forms.ModelForm):

@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'main',
     'accounts',
     'crispy_forms',
+    'django_unused_media', 
 ]
 
 MIDDLEWARE = [
@@ -151,9 +152,14 @@ USE_TZ = True
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, "static") # this is your static folder
 # ]
-STATIC_ROOT =  os.path.join(BASE_DIR, "staticfiles")
+
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+     os.path.join(BASE_DIR, 'static'),
+)
+
+
 
 MEDIA_URL ='/media/'
 
@@ -189,3 +195,4 @@ EMAIL_HOST_PASSWORD = 'Bigbasket@019471'
 
 # HERUKO SETTINGS
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

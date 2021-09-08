@@ -1,16 +1,7 @@
 {
     "workbench.colorCustomizations": {
-        "activityBar.background": "#482327",
-        "titleBar.activeBackground": "#653036",
-        "titleBar.activeForeground": "#FDFCFC"
-    },
-    "files.autoSave": "onFocusChange",
-    "editor.wordWrap": "on",
-    "html.format.endWithNewline": true,
-    "html.trace": "verbose",
-    "html.format.contentUnformatted": "on",
-    "git.ignoreLimitWarning": true
-
-  
-  
+        "activityBar.background": "#5B110B",
+        "titleBar.activeBackground": "#80170F",
+        "titleBar.activeForeground": "#FFFCFC"
+    }
 }
